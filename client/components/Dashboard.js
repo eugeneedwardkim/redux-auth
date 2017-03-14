@@ -2,7 +2,7 @@ import React from 'react';
 import zelda from '../images/zelda.png'
 
 const Dashboard = () => (
-  <div className={mainBg} >
+  <div>
     <h3>Only Logged In Users Can See This</h3>
     <img src={zelda} />
   </div>
