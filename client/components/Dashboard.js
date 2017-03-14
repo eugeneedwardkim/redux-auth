@@ -1,6 +1,5 @@
 import React from 'react';
 import zelda from '../images/zelda.png'
-import { mainBg } from '../styles.scss'
 
 const Dashboard = () => (
   <div className={mainBg} >
