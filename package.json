@@ -6,7 +6,7 @@
     "start": "node ./bin/www",
     "dev_server": "webpack-dev-server --progress --config config/webpack.config.js",
     "build": "webpack --config config/webpack.config.js",
-    "heroku-postbuild": "yarn build" //let's heroku build our webpack assets
+    "heroku-postbuild": "yarn build"
   },
   "dependencies": {
     "babel-core": "^6.23.1",
@@ -40,6 +40,7 @@
     "redux-auth-wrapper": "^1.0.0",
     "redux-thunk": "^2.2.0",
     "serve-favicon": "~2.3.2",
+    "url-loader": "^0.5.8",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0"
   }
